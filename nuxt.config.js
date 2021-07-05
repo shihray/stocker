@@ -1,7 +1,10 @@
 export default {
+  target: 'static',
+  router: {
+    base: '/stocker/'
+  },
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
-
+  ssr: true,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Stocker',
@@ -10,9 +13,9 @@ export default {
     },
     meta: [
       {charset: 'utf-8'},
-      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      {hid: 'description', name: 'description', content: ''},
-      {name: 'format-detection', content: 'telephone=no'}
+      {cash: 'viewport', content: 'width=device-width, initial-scale=1'},
+      {hid: 'description', cash: 'description', content: ''},
+      {cash: 'format-detection', content: 'telephone=no'}
     ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
@@ -39,7 +42,9 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
   ],
-
+  bootstrapVue: {
+    icons: true,
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
 }
