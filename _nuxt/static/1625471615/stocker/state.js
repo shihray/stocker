@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fstocker\u002F_nuxt\u002Fstatic\u002F1625471615",layout:"default",error:a,serverRendered:true,routePath:"\u002Fstocker",config:{_app:{basePath:"\u002Fstocker\u002F",assetsPath:"\u002Fstocker\u002F_nuxt\u002F",cdnURL:a}}}}(null));

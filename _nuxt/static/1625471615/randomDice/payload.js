@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/randomDice", {data:[{}],fetch:{},mutations:void 0});
